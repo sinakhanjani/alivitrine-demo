@@ -8,6 +8,14 @@
 - **Product management:** Edit factory information, add and remove products, and provide details and descriptions for each product.
 - **Receive updates:** Stay informed about the latest products from manufacturers by installing the app and selecting activity categories.
 
+## Screenshots
+Here are some screenshots showcasing the app's features:
+
+![Image 1](/mnt/1.jpg)
+![Image 2](/mnt/2.jpg)
+![Image 3](/mnt/3.jpg)
+![Image 4](/mnt/4.jpg)
+
 ## Installation & Usage
 
 To use the Ali Vitrine app, follow these steps:
