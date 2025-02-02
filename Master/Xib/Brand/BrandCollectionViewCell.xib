@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="BrandCollectionViewCell" customModule="Master" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="162" height="162"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="162" height="162"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backround_circle_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="Hgs-2E-cjw">
+                        <rect key="frame" x="0.0" y="0.0" width="162" height="162"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sample_brand" translatesAutoresizingMaskIntoConstraints="NO" id="N0P-qq-h3c" customClass="CircleImageView" customModule="Master" customModuleProvider="target">
+                        <rect key="frame" x="4" y="3" width="154" height="156"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="circular" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Hgs-2E-cjw" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="1vP-SL-Ock"/>
+                <constraint firstItem="N0P-qq-h3c" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="3" id="Dan-Mb-8SL"/>
+                <constraint firstItem="Hgs-2E-cjw" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="GZC-cM-yOL"/>
+                <constraint firstItem="N0P-qq-h3c" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="QxH-fu-nwx"/>
+                <constraint firstAttribute="bottom" secondItem="N0P-qq-h3c" secondAttribute="bottom" constant="3" id="S7j-3J-9j7"/>
+                <constraint firstAttribute="bottom" secondItem="Hgs-2E-cjw" secondAttribute="bottom" id="c6s-0o-jwA"/>
+                <constraint firstAttribute="trailing" secondItem="Hgs-2E-cjw" secondAttribute="trailing" id="nrE-7a-AC1"/>
+                <constraint firstAttribute="trailing" secondItem="N0P-qq-h3c" secondAttribute="trailing" constant="4" id="ova-bT-Xq6"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="162" height="162"/>
+            <connections>
+                <outlet property="imageButton" destination="N0P-qq-h3c" id="1aw-Er-tW0"/>
+            </connections>
+            <point key="canvasLocation" x="56.521739130434788" y="165.40178571428569"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="backround_circle_gradient" width="61" height="61"/>
+        <image name="sample_brand" width="51" height="35"/>
+    </resources>
+</document>

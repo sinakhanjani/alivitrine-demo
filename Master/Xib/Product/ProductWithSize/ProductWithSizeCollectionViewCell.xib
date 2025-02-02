@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IRANSansMobile.ttf">
+            <string>IRANSansMobileFaNum</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ProductWithSizeCollectionViewCell" customModule="Alivitrin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="282" height="242"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="282" height="242"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kse-To-vZR" customClass="RoundedView" customModule="Alivitrin" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="282" height="242"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="om0-rM-fr6" customClass="RoundedView" customModule="Alivitrin" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="282" height="242"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="product_sample" translatesAutoresizingMaskIntoConstraints="NO" id="rOa-i3-nfX">
+                                        <rect key="frame" x="0.0" y="0.0" width="282" height="242"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="black_wihte_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="H6o-Nn-Lai">
+                                        <rect key="frame" x="0.0" y="0.0" width="282" height="242"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مدل فشن" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jNQ-9y-gPF">
+                                        <rect key="frame" x="118.5" y="209.5" width="45.5" height="16.5"/>
+                                        <fontDescription key="fontDescription" name="IRANSansMobileFaNum" family="IRANSansMobile(FaNum)" pointSize="14"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="H6o-Nn-Lai" firstAttribute="top" secondItem="om0-rM-fr6" secondAttribute="top" id="0oH-gz-qc4"/>
+                                    <constraint firstItem="jNQ-9y-gPF" firstAttribute="centerX" secondItem="om0-rM-fr6" secondAttribute="centerX" id="Gfw-22-SoB"/>
+                                    <constraint firstAttribute="trailing" secondItem="rOa-i3-nfX" secondAttribute="trailing" id="HdQ-Qi-Ws5"/>
+                                    <constraint firstAttribute="bottom" secondItem="rOa-i3-nfX" secondAttribute="bottom" id="M8L-3F-Msw"/>
+                                    <constraint firstAttribute="trailing" secondItem="H6o-Nn-Lai" secondAttribute="trailing" id="Tvx-q9-pSU"/>
+                                    <constraint firstItem="H6o-Nn-Lai" firstAttribute="leading" secondItem="om0-rM-fr6" secondAttribute="leading" id="bBs-DT-FlX"/>
+                                    <constraint firstAttribute="bottom" secondItem="H6o-Nn-Lai" secondAttribute="bottom" id="gYy-SY-KNH"/>
+                                    <constraint firstAttribute="bottom" secondItem="jNQ-9y-gPF" secondAttribute="bottom" constant="16" id="piK-df-2Rh"/>
+                                    <constraint firstItem="rOa-i3-nfX" firstAttribute="top" secondItem="om0-rM-fr6" secondAttribute="top" id="xp6-SI-CFk"/>
+                                    <constraint firstItem="rOa-i3-nfX" firstAttribute="leading" secondItem="om0-rM-fr6" secondAttribute="leading" id="yiQ-gw-Cr5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="7"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" name="SecondaryColor"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="752" text="سایز ۴۸- ۴۹" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Oo-q7-KK4">
+                                <rect key="frame" x="107.5" y="213" width="67" height="18"/>
+                                <fontDescription key="fontDescription" name="IRANSansMobileFaNum" family="IRANSansMobile(FaNum)" pointSize="14"/>
+                                <color key="textColor" name="SecondaryColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="5Oo-q7-KK4" firstAttribute="centerX" secondItem="Kse-To-vZR" secondAttribute="centerX" id="40K-mt-J4P"/>
+                            <constraint firstAttribute="trailing" secondItem="om0-rM-fr6" secondAttribute="trailing" id="8w5-B3-YCM"/>
+                            <constraint firstItem="om0-rM-fr6" firstAttribute="leading" secondItem="Kse-To-vZR" secondAttribute="leading" id="95c-5k-QHa"/>
+                            <constraint firstItem="om0-rM-fr6" firstAttribute="leading" secondItem="Kse-To-vZR" secondAttribute="leading" id="F2y-oW-JnR"/>
+                            <constraint firstItem="om0-rM-fr6" firstAttribute="top" secondItem="Kse-To-vZR" secondAttribute="top" id="HBk-pt-hig"/>
+                            <constraint firstAttribute="bottom" secondItem="om0-rM-fr6" secondAttribute="bottom" id="LHW-Be-wGD"/>
+                            <constraint firstAttribute="bottom" secondItem="5Oo-q7-KK4" secondAttribute="bottom" constant="11" id="Nbi-Wt-9Pg"/>
+                            <constraint firstItem="om0-rM-fr6" firstAttribute="top" secondItem="Kse-To-vZR" secondAttribute="top" id="dxj-MQ-yyQ"/>
+                            <constraint firstItem="5Oo-q7-KK4" firstAttribute="top" secondItem="om0-rM-fr6" secondAttribute="bottom" constant="10" id="hLl-jO-vcF"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="6"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" name="SecondaryColor"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="5Oo-q7-KK4"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Kse-To-vZR" secondAttribute="bottom" id="HC7-an-hCG"/>
+                <constraint firstAttribute="trailing" secondItem="Kse-To-vZR" secondAttribute="trailing" id="drq-y7-UWs"/>
+                <constraint firstItem="Kse-To-vZR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="n1u-ak-eaM"/>
+                <constraint firstItem="Kse-To-vZR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="obe-oK-r2h"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="282" height="242"/>
+            <connections>
+                <outlet property="productImage" destination="rOa-i3-nfX" id="PRk-M0-vZC"/>
+                <outlet property="sizeLabel" destination="5Oo-q7-KK4" id="TpI-b7-txA"/>
+                <outlet property="titleLabel" destination="jNQ-9y-gPF" id="pAC-cS-KFK"/>
+            </connections>
+            <point key="canvasLocation" x="305.79710144927537" y="196.875"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="black_wihte_gradient" width="149" height="119"/>
+        <image name="product_sample" width="149" height="119"/>
+        <namedColor name="SecondaryColor">
+            <color red="0.99607843137254903" green="0.41568627450980394" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

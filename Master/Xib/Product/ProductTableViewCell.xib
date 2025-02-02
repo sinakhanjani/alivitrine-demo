@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="IRANSansMobile.ttf">
+            <string>IRANSansMobileFaNum</string>
+        </array>
+        <array key="IRANSansMobile_Bold.ttf">
+            <string>IRANSansMobileFaNum-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="180" id="9aF-xu-6Sv" customClass="ProductTableViewCell" customModule="Alivitrin" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="180"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9aF-xu-6Sv" id="IX9-Nf-S74">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="180"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="محصولات ویژه" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qf8-q9-Xbh">
+                        <rect key="frame" x="354.5" y="10" width="72.5" height="16.5"/>
+                        <fontDescription key="fontDescription" name="IRANSansMobileFaNum-Bold" family="IRANSansMobileFaNum" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mtx-bE-Jx2">
+                        <rect key="frame" x="15" y="10" width="34" height="16"/>
+                        <fontDescription key="fontDescription" name="IRANSansMobileFaNum" family="IRANSansMobile(FaNum)" pointSize="13"/>
+                        <inset key="imageEdgeInsets" minX="-15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="بیشتر" image="arrow_more_btn">
+                            <color key="titleColor" name="SecondaryColor"/>
+                        </state>
+                        <connections>
+                            <action selector="moreBtnDidTap:" destination="9aF-xu-6Sv" eventType="touchUpInside" id="BQB-ZS-bhK"/>
+                        </connections>
+                    </button>
+                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" semanticContentAttribute="forceRightToLeft" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="fx1-iN-MaQ">
+                        <rect key="frame" x="0.0" y="34.5" width="437" height="145.5"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="GAg-or-Idw">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="8" minY="0.0" maxX="8" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                    </collectionView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="mtx-bE-Jx2" firstAttribute="top" secondItem="IX9-Nf-S74" secondAttribute="top" constant="10" id="3ok-Av-fDU"/>
+                    <constraint firstItem="mtx-bE-Jx2" firstAttribute="leading" secondItem="IX9-Nf-S74" secondAttribute="leading" constant="15" id="9Bs-hV-pMY"/>
+                    <constraint firstItem="fx1-iN-MaQ" firstAttribute="top" secondItem="qf8-q9-Xbh" secondAttribute="bottom" constant="8" id="DYV-Si-fAB"/>
+                    <constraint firstAttribute="trailing" secondItem="fx1-iN-MaQ" secondAttribute="trailing" id="Sx9-kt-CDu"/>
+                    <constraint firstItem="qf8-q9-Xbh" firstAttribute="top" secondItem="IX9-Nf-S74" secondAttribute="top" constant="10" id="Z5c-S5-QXE"/>
+                    <constraint firstItem="fx1-iN-MaQ" firstAttribute="leading" secondItem="IX9-Nf-S74" secondAttribute="leading" id="gOT-se-uvz"/>
+                    <constraint firstAttribute="bottom" secondItem="fx1-iN-MaQ" secondAttribute="bottom" id="hlC-g9-hJl"/>
+                    <constraint firstAttribute="trailing" secondItem="qf8-q9-Xbh" secondAttribute="trailing" constant="10" id="tgn-Oh-PNs"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="tintColor" name="SecondaryColor"/>
+            <viewLayoutGuide key="safeArea" id="DLm-5B-nNf"/>
+            <connections>
+                <outlet property="collectionView" destination="fx1-iN-MaQ" id="TzL-dk-Le9"/>
+                <outlet property="moreBtn" destination="mtx-bE-Jx2" id="G31-UH-uL5"/>
+                <outlet property="titleLabel" destination="qf8-q9-Xbh" id="f08-eE-TDK"/>
+            </connections>
+            <point key="canvasLocation" x="222.46376811594206" y="173.4375"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow_more_btn" width="7" height="12"/>
+        <namedColor name="SecondaryColor">
+            <color red="0.99607843137254903" green="0.41568627450980394" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

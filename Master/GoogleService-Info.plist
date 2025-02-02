@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>247796189691-e4nqbf23i729hm40rpfv8sit4pembdjl.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.247796189691-e4nqbf23i729hm40rpfv8sit4pembdjl</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>247796189691-epku2kq89ff681jmpt9seb0ig12lls8s.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD6oq3u43l_BtzFCxrjCI5VrbPa8Oqp4uI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>247796189691</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.aloapp.alivitrin</string>
+	<key>PROJECT_ID</key>
+	<string>aloapp-alivitrine</string>
+	<key>STORAGE_BUCKET</key>
+	<string>aloapp-alivitrine.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:247796189691:ios:204ac1d9cc92e48dce635e</string>
+	<key>DATABASE_URL</key>
+	<string>https://aloapp-alivitrine.firebaseio.com</string>
+</dict>
+</plist>
