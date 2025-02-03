@@ -4,6 +4,9 @@
 
 ## Features
 
+- **Marketplace for Vendors and Buyers:** This application is a **marketplace platform** where both vendors (sellers) and buyers can sign in. Sellers can list their products within the app, while buyers can browse and purchase products directly.
+- **Different User Categories:** Users are categorized into **regular customers** and **verified wholesale buyers**. Regular users can see standard prices, whereas wholesale buyers, verified by an admin, gain access to wholesale pricing.
+- **Multi-Tier Pricing System:** Each product listed by a vendor has **multiple price points**, including **retail price** and **wholesale price**. Wholesale pricing is only visible to verified buyers who have been approved by the admin.
 - **Direct access to manufacturers:** Connect directly with shoe manufacturers and related industries.
 - **Product management:** Edit factory information, add and remove products, and provide details and descriptions for each product.
 - **Receive updates:** Stay informed about the latest products from manufacturers by installing the app and selecting activity categories.
@@ -27,7 +30,7 @@ Here are some screenshots showcasing the app's features:
 
 ## 🌐 Official Website
 
-- Visit: [Alfa GPS Official Website](https://www.alivitrine.ir)
+- Visit: [Ali Vitrine Official Website](https://www.alivitrine.ir)
 
 ## Contributing
 
