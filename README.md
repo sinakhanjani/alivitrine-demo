@@ -16,13 +16,18 @@ Here are some screenshots showcasing the app's features:
 ![Image 3](/mnt/3.jpg)
 ![Image 4](/mnt/4.jpg)
 
-## Installation & Usage
+## 📲 Download the App
 
-To use the Ali Vitrine app, follow these steps:
+- **iOS:** [Download from Sibapp](https://sibapp.com/applications/alivitrine)
+- **Android:** [Download from Cafe Bazaar](https://cafebazaar.ir/app/app.aloapp.alivitrin?l=en)
 
-1. **Download the app:** [Download and install the app from SibApp](https://sibapp.com/applications/alivitrine).
-2. **Sign up:** After installation, register by entering the required information.
-3. **Select categories:** Choose your preferred activity categories to receive updates on relevant new products.
+## 🚀 Development
+
+- This app was developed **exclusively** by [Sina Khanjani](https://github.com/sinakhanjani).
+
+## 🌐 Official Website
+
+- Visit: [Alfa GPS Official Website](https://www.alivitrine.ir)
 
 ## Contributing
 
